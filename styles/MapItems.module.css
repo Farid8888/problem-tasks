@@ -1,0 +1,45 @@
+.control{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.line{
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    width: 120vw;
+}
+
+
+.id{
+    width: 5rem;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+.name{
+    margin-left: 10px;
+    width: 20rem;
+    border-right: 1px solid gray;
+}
+
+.status{
+    margin-left: 10px;
+    width: 6rem;
+    border-right: 1px solid gray;
+}
+
+.executor{
+    margin-left: 20px;
+    width: 10rem;
+}
+
+.mainMap{
+   margin-left:10%
+}
+
+@media(max-width:1030px){
+    .mainMap{
+        margin-left: 20%;
+    }
+}

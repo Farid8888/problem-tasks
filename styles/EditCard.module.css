@@ -1,0 +1,203 @@
+.modal{
+    position: fixed;
+    top:80px;
+    left:38%;
+    background-color: rgb(209, 230, 240);
+    width: 62%;
+    z-index: 100;
+    height: 100%;
+    overflow-y: scroll;
+    transform: scaleX(1);
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 2rem;
+    margin-bottom: 1.3rem;
+    width: 60%;
+}
+
+.childDcp{
+    margin-bottom: 1.2rem;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.comment label{
+    margin-bottom: 1.2rem;
+}
+
+.btn button{
+    background-color: rgb(16, 185, 207);
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1.3rem;
+}
+.btn button:hover{
+    background-color: rgb(7, 168, 168);
+}
+
+.comment textarea{
+    border: none;
+    border-radius: 6px;
+   padding: 10px;
+   width: 60%;
+}
+
+.taskFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: 1.4rem;
+}
+.user{
+    width: 20%;
+    margin-right: 1.3rem;
+}
+
+.nameFlex{
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.newTask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(3, 3, 83);
+    color:white
+}
+.newTask svg{
+    cursor: pointer;
+}
+@media(max-width:920px){
+    .newTask svg{
+        margin-right: 3rem;
+    }
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 1.3rem;
+}
+.name label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.name textarea{
+    border: none;
+    border-radius: 6px;
+   padding: 10px;
+}
+
+.control{
+    padding: 20px 3rem;
+}
+
+.control button{
+    background-color: rgb(16, 185, 207);
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.control button:hover{
+    background-color: rgb(7, 168, 168);
+}
+
+
+.flexBox{
+    display:flex;
+    flex-direction: row;
+    padding: 10px 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.mapComment{
+    padding: 10px;
+    border-radius: 10px;
+     margin-top: 10px;
+    background-color: azure;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.date{
+    width: 50%;
+    margin-top: 1.5rem;
+}
+
+.marginScroll{
+    margin-bottom: 10rem;
+}
+
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    border-left:1px solid gray ;
+    height: 120%;
+    position: absolute;
+    left: 72%;
+    top:44px;
+    overflow: hidden;
+}
+
+@media(max-width:814px){
+    .sideBar{
+        top:66px
+    }
+}
+
+.circleFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-left: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.statusChange{
+    cursor: pointer;
+    width: 50%;
+}
+
+
+.circleStatus{
+ border-radius: 50%;
+ width: 10px;
+ height: 10px;
+    border: 1px solid gray;
+    margin-right: 6px;
+    flex-shrink: 0;
+}
+
+.columnItems{
+    margin-left: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.columnItems div:first-child{
+    color: rgba(128, 128, 128, 0.705);
+    margin-bottom: 3px;
+}
+

@@ -1,0 +1,1 @@
+export const tenantguid="9e485435-513f-447d-be4b-753ea3bbb9ef"

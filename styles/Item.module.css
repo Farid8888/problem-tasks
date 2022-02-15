@@ -1,0 +1,47 @@
+.item{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:2px solid rgba(211, 206, 206, 0.562) ;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: rgba(124, 127, 129, 0.623);
+}
+
+.id{
+    width: 5rem;
+    text-align: center;
+   
+}
+
+.stick{
+    width: 3px;
+    height: 30px;
+}
+.name{
+    margin-left: 10px;
+    width: 20rem;
+   
+}
+
+.status{
+    margin-left: 10px;
+    width: 6rem;
+   background-color: rgb(236, 221, 8);
+   border-radius: 2rem;
+   padding: 5px;
+   color: white;
+   border:none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.executor{
+    margin-left: 20px;
+    width: 10rem;
+}
