@@ -12,7 +12,7 @@ const MapItems =(props)=>{
               <div className={classes.executor}>Исполнитель</div>
           </div>
           <div className={classes.line}></div>
-          {props.items.value.map(item=>{
+          {props.items.map(item=>{
               return <Item key={item.id} ID={item.id} target={item.name} status={item.statusName} executor={item.executorName} statusColor={item.statusRgb}/>
           })}
       </div>
